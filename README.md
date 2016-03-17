@@ -14,6 +14,8 @@ $ npm install --save request
 * Then make a post request with a new object with your name and a new message.
 * Then make the get request again to confirm that your object was added to the database
 
+* To run each request, comment one out, then in the terminal run $ node request.js , to run the other just comment the other out and run the file in node again (in the terminal) 
+
 ```
 var request = require('request');
 
